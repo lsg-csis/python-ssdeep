@@ -5,7 +5,7 @@ import subprocess
 import sys
 import setuptools
 from distutils.sysconfig import get_config_vars
-from pkg_resources import parse_version
+from packaging.version import parse as parse_version
 from setuptools import Distribution as _Distribution, setup
 from setuptools.command.build_ext import build_ext as _build_ext
 import errno
